@@ -1,0 +1,131 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    background: lightgrey;
+    height: 2rem;
+    width: 100%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
+    padding-left: 1rem;
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+span {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+section {
+    min-height: 100vh;
+    padding-top: 2.5rem;
+    padding-left: 1.5rem;
+}
+
+#ini {
+    background: url(imagem1.jpg);
+    background-size: cover;
+}
+
+#ser {
+    background: url(imagem2.jpg);
+    background-size: cover;
+}
+
+#con {
+    background: url(imagem3.jpg);
+    background-size: cover;
+}
+
+#cur {
+    background: url(imagem4.jpg);
+    background-size: cover;
+}
+
+#sob {
+    background: url(imagem5.jpg);
+    background-size: cover;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+.zoro {
+    text-align: center;
+    color: purple;
+    border: 2px solid black;
+    padding: 5px;
+    width: 45%;
+    margin: 200px auto;
+}
+
+.zoro:hover {
+    opacity: 0.5;
+}
+
+.pikachu {
+    text-align: center;
+    color: yellow;
+    border: 2px solid black;
+    padding: 5px;
+    width: 45%;
+    margin: 200px auto;
+}
+
+.pikachu:hover {
+    opacity: 0.5;
+}
+
+.saitama {
+    text-align: center;
+    color: gray;
+    border: 2px solid black;
+    padding: 2px;
+    width: 45%;
+    margin: 200px auto;
+}
+
+.saitama:hover {
+    opacity: 0.5;
+}
+
+.jojo {
+    text-align: center;
+    color: orange;
+    border: 2px solid black;
+    padding: 2px;
+    width: 45%;
+    margin: 200px auto;
+}
+
+.jojo:hover {
+    opacity: 0.5;
+}
+
+.lind {
+    text-align: center;
+    color: blue;
+    border: 2px solid black;
+    padding: 2px;
+    width: 45%;
+    margin: 200px auto;
+}
+
+.lind:hover {
+    opacity: 0.5;
+}
